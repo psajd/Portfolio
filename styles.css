@@ -128,7 +128,8 @@ nav a {
 .projects-block {
     color: white;
     display: flex;
-    height: 80vh;
+    justify-content: center;
+    overflow: hidden; /* Hide any overflow if the content is wider than the viewport */
 }
 
 .experience-block {
@@ -172,6 +173,18 @@ footer ul li {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+
+    .header-navbar {
+        font-size: 15px;
+    }
+
+    .pseudograpic-text {
+        font-size: 7px;
+    }
+
     .about-text {
         display: none;
     }
@@ -192,4 +205,27 @@ footer ul li {
     nav li {
         margin: 10px 0;
     }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax values as needed */
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Optionally, set a maximum width to prevent it from stretching too much */
+    margin: 0 auto; /* Center the grid within the container */
+}
+
+.project-tile {
+    text-align: center;
+    width: 100%;
+}
+
+.project-tile img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-tile p {
+    margin-top: 10px;
 }
