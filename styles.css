@@ -172,7 +172,7 @@ footer ul li {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .about-text {
         display: none;
     }
