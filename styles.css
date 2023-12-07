@@ -48,11 +48,10 @@ body {
 }
 
 .header-navbar {
-    padding-right: 10%;
 }
 
 .logo {
-    padding-left: 10%;
+    padding-left: 5%;
     animation: flicker 1.5s infinite alternate;
     font-size: 35px;
     font-weight: bold;
@@ -76,6 +75,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav li {
@@ -118,6 +118,7 @@ nav a {
 .about-block {
     color: white;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
@@ -149,14 +150,12 @@ nav a {
 
 .pseudograpic-text {
     font-size: 15px;
-    padding-left: 5%;
     color: #67E691;
     text-shadow: 0 0 7px #fff,
     0 0 10px #67E691
 }
 
 .about-text {
-    padding-right: 10%;
     font-size: 30px;
     text-align: right;
 }
