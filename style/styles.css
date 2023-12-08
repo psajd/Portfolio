@@ -1,0 +1,58 @@
+@import "components/header/header.css";
+@import "components/logo/logo.css";
+@import "components/nav-menu/nav-menu.css";
+@import "components/footer/footer.css";
+@import "components/about/about.css";
+@import "components/projects/projects.css";
+@import "components/projects-grid/projects-grid.css";
+@import "components/experience/experience.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    animation: shows 2.5s forwards;
+    background-color: #13111F;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+@keyframes shows {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/*!* Media queries for responsiveness *!
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+
+    .pseudograpic-text {
+        font-size: 7px;
+    }
+
+    .about-text {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 5%;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}*/

@@ -1,0 +1,12 @@
+@import "__personal-text/about__personal-text.css";
+@import "__pg-text/about__pg-text.css";
+
+.about {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 80vh;
+}

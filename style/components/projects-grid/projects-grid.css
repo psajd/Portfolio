@@ -1,0 +1,11 @@
+@import "_parallax/projects-grid_parallax.css";
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Adjust the minmax values as needed */
+    grid-gap: 5%;
+    width: 100%;
+    max-width: 1200px; /* Optionally, set a maximum width to prevent it from stretching too much */
+    margin: 4% auto; /* Center the grid within the container */
+
+}

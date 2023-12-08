@@ -1,0 +1,8 @@
+@import "_parallax/projects_parallax.css";
+
+.projects {
+    color: white;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}

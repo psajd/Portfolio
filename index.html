@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="stylesheet" type="text/css" href="style/components/footer/footer.css"/>
     <meta charset="UTF-8">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="../../Downloads/outline-control.js"></script>
 </head>
 <body>
 
-<header class="minimal-header neonText sticky">
+<header class="header header_neon-text header_sticky">
     <div class="logo">0_o</div>
-    <nav class="header-navbar">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#projects-block">Projects</a></li>
-            <li><a href="#experience-block">Experience</a></li>
-            <li><a href="#experience-block">Contact</a></li>
+    <nav class="nav-menu">
+        <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+                <a class="nav-menu__ref" href="#">About</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__ref" href="#projects-block">Projects</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__ref" href="#experience-block">Experience</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__ref" href="#experience-block">Contact</a>
+            </li>
         </ul>
     </nav>
 </header>
 
 
 <main>
-    <div class="about-block" id="about-block">
-        <div class="pseudograpic-text">
+    <div class="about" id="about-block">
+        <div class="about__pg-text about__pg-text_neon">
                 <pre>
 __/\\\\\\\\\\\\\_______/\\\\\\\\\\\_______/\\\\\\\\\_________/\\\\\\\\\\\__/\\\\\\\\\\\\____
  _\/\\\/////////\\\___/\\\/////////\\\___/\\\\\\\\\\\\\______\/////\\\///__\/\\\////////\\\__
@@ -45,7 +55,7 @@ __/\\\\\\\\\\\\\_______/\\\\\\\\\\\_______/\\\\\\\\\_________/\\\\\\\\\\\__/\\\\
                                 _\///__\////////////_______\//////////______\///______
                 </pre>
         </div>
-        <div class="about-text">
+        <div class="about__personal-text">
             <span>Ignat G.</span>
             <br/>
             <br/>
@@ -53,58 +63,37 @@ __/\\\\\\\\\\\\\_______/\\\\\\\\\\\_______/\\\\\\\\\_________/\\\\\\\\\\\__/\\\\
             <br/>
             <br/>
         </div>
-
     </div>
 
-    <div class="projects-block paral" id="projects-block">
-        <div class="projects-grid paral-content">
 
-            <div class="project-tile">
-                <img class="project-image" src="images/MSRikpkaTGI.jpg" alt="Project Image">
-                <p>Описание проекта 1</p>
-            </div>
+    <div class="projects projects_parallax" id="projects-block">
+        <div class="projects-grid projects-grid_parallax">
 
-            <div class="project-tile">
-                <img class="project-image" src="images/MSRikpkaTGI.jpg" alt="Project Image">
-                <p>Описание проекта 1</p>
-            </div>
-
-            <div class="project-tile">
-                <img class="project-image" src="images/MSRikpkaTGI.jpg" alt="Project Image">
-                <p>Описание проекта 1</p>
-            </div>
-
-            <div class="project-tile">
-                <img class="project-image" src="images/MSRikpkaTGI.jpg" alt="Project Image">
-                <p>Описание проекта 1</p>
-            </div>
-
-            <div class="project-tile">
-                <img class="project-image" src="images/MSRikpkaTGI.jpg" alt="Project Image">
-                <p>Описание проекта 1</p>
-            </div>
-
-            <div class="project-tile" style="align-self: center">
-                <p>Coming soon..</p>
-            </div>
         </div>
     </div>
-    <div class="experience-block" id="experience-block">
+
+    <div class="experience" id="experience-block">
         experience-block
     </div>
 </main>
 
-<footer>
-    <ul>
-        <li><a href="https://t.me/psajd">tg</a></li>
-        <li><a href="https://github.com/psajd">github</a></li>
-        <li><a href="mailto:polpilik@gmail.com">mail</a></li>
+<footer class="footer">
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="https://t.me/psajd">tg</a>
+        </li>
+        <li class="footer__item">
+            <a href="https://github.com/psajd">github</a>
+        </li>
+        <li class="footer__item">
+            <a href="mailto:polpilik@gmail.com">mail</a>
+        </li>
     </ul>
 </footer>
 
 <script src="script.js"></script>
-
-<script src="js/outline-control.js"></script>
+<!--
+<script src="js/outline-control.js"></script>-->
 
 </body>
 </html>

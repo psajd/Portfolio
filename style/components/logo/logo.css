@@ -1,0 +1,8 @@
+@import "_flicker/logo_flicker.css";
+
+.logo {
+    padding-left: 5%;
+    animation: flicker 1.5s infinite alternate;
+    font-size: 35px;
+    font-weight: bold;
+}

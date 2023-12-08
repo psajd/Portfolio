@@ -1,0 +1,12 @@
+@import "_neon-text/header_neon-text.css";
+@import "_sticky/header_sticky.css";
+
+.header {
+    z-index: 100;
+    font-size: 35px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
