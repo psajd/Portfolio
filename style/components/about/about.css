@@ -1,5 +1,5 @@
-@import "__personal-text/about__personal-text.css";
-@import "__pg-text/about__pg-text.css";
+@import "personal-text/about__personal-text.css";
+@import "pg-text/about__pg-text.css";
 
 .about {
     color: white;

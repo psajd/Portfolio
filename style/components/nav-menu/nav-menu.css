@@ -1,6 +1,6 @@
-@import "__item/nav-menu__item.css";
-@import "__list/nav-menu__list.css";
-@import "__ref/nav-menu__ref.css";
+@import "item/nav-menu__item.css";
+@import "list/nav-menu__list.css";
+@import "ref/nav-menu__ref.css";
 
 @media screen and (max-width: 600px) {
     .nav-menu {

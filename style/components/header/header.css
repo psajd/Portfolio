@@ -1,5 +1,5 @@
-@import "_neon-text/header_neon-text.css";
-@import "_sticky/header_sticky.css";
+@import "neon-text/header_neon-text.css";
+@import "sticky/header_sticky.css";
 
 .header {
     z-index: 100;

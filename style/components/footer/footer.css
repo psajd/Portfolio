@@ -1,5 +1,5 @@
-@import "__list/footer__list.css";
-@import "__item/footer__item.css";
+@import "list/footer__list.css";
+@import "item/footer__item.css";
 
 .footer {
 }

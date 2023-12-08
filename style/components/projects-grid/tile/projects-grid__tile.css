@@ -1,4 +1,4 @@
-@import "_hover-text/projects-grid__tile_hover-text.css";
+@import "hover-text/projects-grid__tile_hover-text.css";
 
 .projects-grid__tile {
     text-align: center;

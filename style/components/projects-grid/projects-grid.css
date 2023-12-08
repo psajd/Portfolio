@@ -1,7 +1,7 @@
-@import "_parallax/projects-grid_parallax.css";
-@import "__tile/projects-grid__tile.css";
-@import "__image/projects-grid__image.css";
-@import "__name/projects-grid__name.css";
+@import "parallax/projects-grid_parallax.css";
+@import "tile/projects-grid__tile.css";
+@import "image/projects-grid__image.css";
+@import "name/projects-grid__name.css";
 
 .projects-grid {
     display: grid;
