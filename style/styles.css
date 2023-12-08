@@ -1,11 +1,11 @@
-@import "components/header/header.css";
-@import "components/logo/logo.css";
-@import "components/nav-menu/nav-menu.css";
-@import "components/footer/footer.css";
-@import "components/about/about.css";
-@import "components/projects/projects.css";
-@import "components/projects-grid/projects-grid.css";
-@import "components/experience/experience.css";
+@import "./components/header/header.css";
+@import "./components/logo/logo.css";
+@import "./components/nav-menu/nav-menu.css";
+@import "./components/footer/footer.css";
+@import "./components/about/about.css";
+@import "./components/projects/projects.css";
+@import "./components/projects-grid/projects-grid.css";
+@import "./components/experience/experience.css";
 
 html {
     scroll-behavior: smooth;
