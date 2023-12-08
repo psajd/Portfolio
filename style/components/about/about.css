@@ -8,5 +8,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    height: 80vh;
+    margin: 13%  0 13% 0;
+    height: auto;
 }

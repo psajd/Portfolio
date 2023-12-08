@@ -1,6 +1,6 @@
 .projects_parallax {
     position: relative;
-    height: 100vh;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }

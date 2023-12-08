@@ -1,0 +1,13 @@
+.projects-grid__image {
+    width: 100%;
+    border-radius: 10%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.projects-grid__image:hover {
+    transform: scale(1.1);
+}
+
+.projects-grid__tile:hover  {
+    transform: scale(1.1);
+}
