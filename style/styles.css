@@ -6,6 +6,7 @@
 @import "./components/projects/projects.css";
 @import "./components/projects-grid/projects-grid.css";
 @import "./components/experience/experience.css";
+@import "./components/neon-line/neon-line.css";
 
 html {
     scroll-behavior: smooth;

@@ -1,6 +1,7 @@
 .about__personal-text {
-    font-size: 35px;
+    font-size: 30px;
     text-align: right;
+    width: 15em;
 }
 
 @media screen and (max-width: 1200px) {
