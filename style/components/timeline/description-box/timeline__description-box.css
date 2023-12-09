@@ -5,5 +5,9 @@
 @import "pos/timeline__description-box__pos.css";
 
 .timeline__description-box {
-
+    border: 3px solid white;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 100px #0fa
 }

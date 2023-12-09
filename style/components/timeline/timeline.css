@@ -1,7 +1,14 @@
 @import "start-time/timeline__start-time.css";
 @import "end-time/timeline__end-time.css";
 @import "description-box/timeline__description-box.css";
+@import "arrow/timeline_arrow.css";
 
 .timeline {
-
+    height: auto;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
