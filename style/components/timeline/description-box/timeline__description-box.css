@@ -1,0 +1,9 @@
+@import "company/timeline__description-box__company.css";
+@import "descriprion/timeline__description-box__description.css";
+@import "item/timeline__description-box__item.css";
+@import "list/timeline__description-box__list.css";
+@import "pos/timeline__description-box__pos.css";
+
+.timeline__description-box {
+
+}
