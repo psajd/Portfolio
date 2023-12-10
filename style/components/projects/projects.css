@@ -1,8 +1,11 @@
 @import "parallax/projects_parallax.css";
+@import "header/projects__header.css";
+
 
 .projects {
     color: white;
     display: flex;
     justify-content: center;
     overflow: hidden;
+    flex-direction: column;
 }

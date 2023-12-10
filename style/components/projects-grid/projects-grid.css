@@ -9,24 +9,25 @@
     grid-gap: 10%;
     width: auto;
     max-width: 1200px;
-    margin: 7%;
+    margin: 3% 7% 7% 7%;
     justify-content: center;
+    align-self: center;
 }
 
 @media screen and (max-width: 1500px) {
     .projects-grid {
-        grid-template-columns: repeat(2, 0.9fr);
-        grid-gap: 20%;
-        margin-top: 20%;
-        grid-template-rows: repeat(6, 13em);
+        grid-template-columns: repeat(2, 0.45fr);
+        grid-gap: 10%;
+        margin-top: 10%;
+        grid-template-rows: repeat(5, 12em);
     }
 }
 
 @media screen and (max-width: 768px) {
     .projects-grid {
-        grid-template-columns: repeat(1, 0.8fr);
-        margin-top: 30%;
-        grid-gap: 30%;
-        grid-template-rows: repeat(12, 10em);
+        grid-template-columns: repeat(1, 0.5fr);
+        margin-top: 10%;
+        grid-gap: 10%;
+        grid-template-rows: repeat(12, 8em);
     }
 }

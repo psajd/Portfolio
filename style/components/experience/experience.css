@@ -2,4 +2,7 @@
     color: white;
     display: flex;
     height: auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
