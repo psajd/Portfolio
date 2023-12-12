@@ -1,0 +1,33 @@
+@import "parallax/projects-grid_parallax.css";
+@import "tile/projects-grid__tile.css";
+@import "image/projects-grid__image.css";
+@import "name/projects-grid__name.css";
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 15em);
+    grid-gap: 10%;
+    width: auto;
+    max-width: 1200px;
+    margin: 3% 7% 7% 7%;
+    justify-content: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 0.45fr);
+        grid-gap: 25%;
+        margin-top: 10%;
+        grid-template-rows: repeat(6, 12em);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(1, 0.5fr);
+        margin-top: 15%;
+        grid-gap: 25%;
+        grid-template-rows: repeat(18, 8em);
+    }
+}

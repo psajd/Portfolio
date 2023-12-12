@@ -1,0 +1,10 @@
+@import "list/footer__list.css";
+@import "item/footer__item.css";
+@import "load-time/footer__load-time.css";
+@import "neon-line/neon-line.css";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

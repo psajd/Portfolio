@@ -1,0 +1,24 @@
+/*
+.timeline__description-box__neon-line{
+
+    margin: 0 10% 5% 10%; !* Добавьте отступ, чтобы создать пространство между элементами *!
+    height: 3px;
+    background-color: #5FE3B4;
+    border-radius: 30px;
+    box-shadow: 0 0 100px 2px #fff,
+    0 0 50px 2px #67E691;
+
+    animation: timeline__description-box__neon-line_pulse 2.5s alternate infinite;
+}
+
+@keyframes timeline__description-box__neon-line_pulse {
+    0% {
+        opacity: 0;
+        scale: 0.4;
+    }
+    100% {
+        opacity: 0.8;
+        scale: 0.6;
+    }
+}
+*/

@@ -1,0 +1,20 @@
+@import "neon-text/header_neon-text.css";
+@import "sticky/header_sticky.css";
+
+.header {
+    z-index: 100;
+    font-size: 35px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 0 3% 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .header{
+        justify-content: center;
+    }
+}

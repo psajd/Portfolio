@@ -1,0 +1,12 @@
+@import "hover-text/projects-grid__tile_hover-text.css";
+
+.projects-grid__tile {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
