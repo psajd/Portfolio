@@ -1,0 +1,7 @@
+@import "list/footer__list.css";
+@import "item/footer__item.css";
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
