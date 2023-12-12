@@ -1,0 +1,8 @@
+.footer__neon-line {
+    margin: 5% 5% 0;
+    height: 3px;
+    background-color: #5FE3B4;
+    border-radius: 30px;
+    box-shadow: 0 0 80px 2px #fff,
+    0 0 40px 2px #67E691;
+}
