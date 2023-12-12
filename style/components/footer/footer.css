@@ -2,6 +2,7 @@
 @import "item/footer__item.css";
 @import "load-time/footer__load-time.css";
 @import "neon-line/neon-line.css";
+@import "sticky/footer_sticky.css";
 
 .footer {
     display: flex;

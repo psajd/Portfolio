@@ -8,6 +8,7 @@
 @import "./components/experience/experience.css";
 @import "./components/neon-line/neon-line.css";
 @import "./components/timeline/timeline.css";
+@import "./components/todo/todo.css";
 
 html {
     scroll-behavior: smooth;

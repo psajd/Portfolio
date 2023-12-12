@@ -1,0 +1,9 @@
+@import "list/todo__list.css";
+@import "buttons/todo__buttons.css";
+@import "task-input/todo__task-input.css";
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
