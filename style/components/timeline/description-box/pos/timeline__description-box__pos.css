@@ -1,3 +1,16 @@
 .timeline__description-box__pos {
+    margin-top: 0;
+}
 
+
+@media screen and (max-width: 1500px) {
+    .timeline__description-box__pos {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeline__description-box__pos {
+        font-size: 10px;
+    }
 }

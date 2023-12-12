@@ -1,3 +1,15 @@
 .timeline__description-box__company {
+    font-size: 50px;
+}
 
+@media screen and (max-width: 1500px) {
+    .timeline__description-box__company {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeline__description-box__company {
+        font-size: 30px;
+    }
 }
