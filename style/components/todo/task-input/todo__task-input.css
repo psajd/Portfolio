@@ -1,0 +1,14 @@
+.todo__task-input{
+    padding: 10px;
+    margin:3% 15% 3%;
+    font-size: 20px;
+    border: 2px solid #4CAF50; /* Green border color */
+    border-radius: 5px;
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.6); /* Green neon glow */
+    transition: box-shadow 0.3s;
+}
+
+.todo__task-input:focus {
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.9); /* Increase glow on focus */
+}

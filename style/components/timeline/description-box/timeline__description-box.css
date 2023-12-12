@@ -1,0 +1,27 @@
+@import "company/timeline__description-box__company.css";
+@import "pos/timeline__description-box__pos.css";
+@import "neon-line/timeline__description-box__neon-line.css";
+
+.timeline__description-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    border: 3px solid white;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 60px #0fa;
+    margin-right: 30%;
+    margin-left: 30%;
+    animation: timeline__description-box_pulse alternate 2.5s infinite;
+}
+
+@keyframes timeline__description-box_pulse {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
