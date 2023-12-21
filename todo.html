@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+
+<header class="header header_neon-text header_sticky" id="header">
+    <div class="header__back-button">
+        <a class="header__back-button__link" href="index.html">
+            <-- go back
+        </a>
+    </div>
+</header>
+
+
+<main style="padding-top: 0">
+    <div class="todo">
+        <h1 class="projects__header header_neon-text">Todo List</h1>
+        <label for="taskInput"></label>
+        <input class="todo__task-input" type="text" id="taskInput" placeholder="Add a new task">
+
+        <div class="todo__buttons">
+            <button class="todo__buttons__button" onclick="addTask()">Add Task</button>
+            <button class="todo__buttons__button" onclick="clearTasks()">Clear All Tasks</button>
+        </div>
+
+        <ul class="todo__list" id="todoList"></ul>
+    </div>
+</main>
+
+<footer class="footer" id="footer">
+    <hr class="footer__neon-line">
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="https://t.me/psajd">tg</a>
+        </li>
+        <li class="footer__item">
+            <a href="https://github.com/psajd">github</a>
+        </li>
+        <li class="footer__item">
+            <a href="mailto:polpilik@gmail.com">mail</a>
+        </li>
+    </ul>
+    <div class="footer__load-time" id="load-time"></div>
+</footer>
+
+<script src="js/todo.js"></script>
+
+</body>
+</html>

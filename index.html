@@ -1,10 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <link rel="stylesheet" type="text/css"
+          href="style/components/projects-grid/coming-soon/projects-grid__coming-soon.css"/>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
 
+<header class="header header_neon-text header_sticky" id="header">
+    <div class="logo">0_o</div>
+    <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-menu__list">
+            <li class="nav-menu__item" id="about-item">
+                <a class="nav-menu__ref" href="#">About</a>
+            </li>
+            <li class="nav-menu__item" id="projects-item">
+                <a class="nav-menu__ref" href="#projects-block">Projects</a>
+            </li>
+            <li class="nav-menu__item" id="experience-item">
+                <a class="nav-menu__ref" href="#experience-block">Experience</a>
+            </li>
+            <li class="nav-menu__item" id="todo">
+                <a class="nav-menu__ref" href="todo.html">Todo</a>
+            </li>
+            <li class="nav-menu__item" id="gallery">
+                <a class="nav-menu__ref" href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <hr class="neon-line">
+    <div class="about" id="about-block">
+        <div class="about__pg-text about__pg-text_neon">
+                <pre>
+__/\\\\\\\\\\\\\_______/\\\\\\\\\\\_______/\\\\\\\\\_________/\\\\\\\\\\\__/\\\\\\\\\\\\____
+ _\/\\\/////////\\\___/\\\/////////\\\___/\\\\\\\\\\\\\______\/////\\\///__\/\\\////////\\\__
+  _\/\\\_______\/\\\__\//\\\______\///___/\\\/////////\\\_________\/\\\_____\/\\\______\//\\\_
+   _\/\\\\\\\\\\\\\/____\////\\\_________\/\\\_______\/\\\_________\/\\\_____\/\\\_______\/\\\_
+    _\/\\\/////////_________\////\\\______\/\\\\\\\\\\\\\\\_________\/\\\_____\/\\\_______\/\\\_
+     _\/\\\_____________________\////\\\___\/\\\/////////\\\_________\/\\\_____\/\\\_______\/\\\_
+      _\/\\\______________/\\\______\//\\\__\/\\\_______\/\\\__/\\\___\/\\\_____\/\\\_______/\\\__
+       _\/\\\_____________\///\\\\\\\\\\\/___\/\\\_______\/\\\_\//\\\\\\\\\______\/\\\\\\\\\\\\/___
+        _\///________________\///////////_____\///________\///___\/////////_______\////////////_____
+
+                        ________/\\\\\\\\\\\\_________________________________
+                         _______\/\\\////////\\\_______________________________
+                          _______\/\\\______\//\\\______________________________
+                           _______\/\\\_______\/\\\_____/\\\\\\\\___/\\\____/\\\_
+                            _______\/\\\_______\/\\\___/\\\/////\\\_\//\\\__/\\\__
+                             _______\/\\\_______\/\\\__/\\\\\\\\\\\___\//\\\/\\\___
+                              _______\/\\\_______/\\\__\//\\///////_____\//\\\\\____
+                               __/\\\_\/\\\\\\\\\\\\/____\//\\\\\\\\\\____\//\\\_____
+                                _\///__\////////////_______\//////////______\///______
+                </pre>
+        </div>
+        <div class="about__personal-text">
+            <span>Ignat G.</span>
+            <br/>
+            <br/>
+            <span>20 y.o.</span>
+            <br/>
+            <br/>
+        </div>
+    </div>
+    <hr class="neon-line">
+
+
+    <div class="projects projects_parallax" id="projects-block">
+        <p class="projects__header header_neon-text">My projects</p>
+
+        <div class="projects-grid projects-grid_parallax">
+
+            <div class="projects-grid__tile">
+                <a href="https://github.com/psajd/LotteryBot" target="_blank">
+                    <img class="projects-grid__image" src="images/hQ9zMX1y6N8.jpg" alt="project">
+                </a>
+                <p>Lottery bot</p>
+            </div>
+
+
+            <div class="projects-grid__tile">
+                <a href="https://github.com/psajd/BanksMvcApp" target="_blank">
+                    <img class="projects-grid__image" src="images/MSRikpkaTGI.jpg" alt="project">
+                </a>
+                <p>Bank manager MVC</p>
+            </div>
+
+            <div class="projects-grid__tile">
+                <a href="https://github.com/psajd/quizletBot" target="_blank">
+                    <img class="projects-grid__image" src="images/YgwzJ8N4_U4.jpg" alt="project">
+                </a>
+                <p>Quizzlet bot</p>
+            </div>
+
+            <div class="projects-grid__tile">
+                <a href="https://github.com/psajd/BackupCreator" target="_blank">
+                    <img class="projects-grid__image" src="images/408NgK00ohY.jpg" alt="project">
+                </a>
+                <p>Backups creator</p>
+            </div>
+
+            <div class="projects-grid__tile">
+                <a href="https://github.com/psajd/ReportSystem" target="_blank">
+                    <img class="projects-grid__image" src="images/z1PSCk-5mxQ.jpg" alt="project">
+                </a>
+                <p>Report system</p>
+            </div>
+
+            <div class="projects-grid__tile">
+                <p class="projects-grid__coming-soon">Coming<br/>soon..</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="experience" id="experience-block">
+        <p class="projects__header header_neon-text">Experience timeline</p>
+        <div class="timeline">
+            <div class="timeline__fragment">
+                <p class="timeline__start-time">March 2022</p>
+                <div class="timeline__description-box">
+                    <p class="timeline__description-box__company">MyLabs</p>
+                    <p class="timeline__description-box__pos">Freelancer</p>
+                </div>
+                <p class="timeline__end-time">May 2023</p>
+            </div>
+
+            <img class="timeline__arrow" src="images/icons8-chevron-down-96.png" alt="arrow">
+
+            <div class="timeline__fragment">
+                <p class="timeline__start-time">June 2023</p>
+                <div class="timeline__description-box">
+                    <p class="timeline__description-box__company">Lipt-Soft</p>
+                    <p class="timeline__description-box__pos">Backend developer</p>
+                </div>
+                <p class="timeline__end-time">August 2023</p>
+            </div>
+
+            <img class="timeline__arrow" src="images/icons8-chevron-down-96.png" alt="arrow">
+
+            <div class="timeline__fragment">
+                <p class="timeline__start-time">A bright future</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer" id="footer">
+    <hr class="footer__neon-line">
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="https://t.me/psajd">tg</a>
+        </li>
+        <li class="footer__item">
+            <a href="https://github.com/psajd">github</a>
+        </li>
+        <li class="footer__item">
+            <a href="mailto:polpilik@gmail.com">mail</a>
+        </li>
+    </ul>
+    <div class="footer__load-time" id="load-time"></div>
+</footer>
+
+
+<script src="style/components/footer/footer.js"></script>
+<script src="script.js"></script>
+<script src="style/components/nav-menu/nav-menu-highlight.js"></script>
+
+<!--<script src="js/outline-control.js"></script>-->
 </body>
 </html>

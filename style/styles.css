@@ -1,0 +1,40 @@
+@import "./components/header/header.css";
+@import "./components/logo/logo.css";
+@import "./components/nav-menu/nav-menu.css";
+@import "./components/footer/footer.css";
+@import "./components/about/about.css";
+@import "./components/projects/projects.css";
+@import "./components/projects-grid/projects-grid.css";
+@import "./components/experience/experience.css";
+@import "./components/neon-line/neon-line.css";
+@import "./components/timeline/timeline.css";
+@import "./components/todo/todo.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    animation: shows 2.5s forwards;
+    background-color: #13111F;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+@keyframes shows {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.swiper-slide{
+    display: flex; align-content: center; justify-content: center
+}
+
+.swiper-slide img{
+    width: 30%;
+    object-fit: cover
+}

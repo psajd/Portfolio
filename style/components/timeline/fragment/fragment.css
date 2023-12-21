@@ -1,0 +1,6 @@
+.timeline__fragment {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: auto;
+}

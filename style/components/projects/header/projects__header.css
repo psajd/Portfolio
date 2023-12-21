@@ -1,0 +1,12 @@
+.projects__header {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .projects__header {
+        text-align: center;
+        font-size: 30px;
+    }
+}
