@@ -1,0 +1,22 @@
+.projects-grid__tile_hover-text {
+    position: absolute;
+    text-align: left;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    word-wrap: normal;
+    transform: translate(-50%, -90%);
+    opacity: 0;
+    color: #843333;
+    font-size: 1em;
+    padding: 59px;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.projects-grid__tile:hover .projects-grid__tile_hover-text {
+    opacity: 1;
+}
+
+
+
+

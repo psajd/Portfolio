@@ -1,0 +1,20 @@
+.neon-line{
+    margin: 0 5% 5%; /* Добавьте отступ, чтобы создать пространство между элементами */
+    height: 3px;
+    background-color: #5FE3B4;
+    border-radius: 30px;
+    box-shadow: 0 0 100px 2px #fff,
+    0 0 50px 2px #67E691;
+
+    animation: pulse 1s alternate infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

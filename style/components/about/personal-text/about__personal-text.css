@@ -1,0 +1,23 @@
+.about__personal-text {
+    font-size: 30px;
+    text-align: right;
+    width: 15em;
+}
+
+@media screen and (max-width: 1200px) {
+    .about__personal-text{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about__personal-text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about__personal-text{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+@import "neon/about__pg-text_neon.css";
+
+.about__pg-text {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .about__pg-text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about__pg-text{
+        font-size: 5px;
+    }
+}
+
+

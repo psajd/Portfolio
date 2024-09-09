@@ -1,0 +1,9 @@
+.nav-menu__item {
+    margin-right: 50px;
+}
+
+
+.nav-menu__item.active {
+    transform: scale(1.2); /* Измените масштаб по вашему выбору */
+    transition: transform 0.3s ease; /* Добавьте анимацию для плавного изменения размера */
+}
